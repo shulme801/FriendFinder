@@ -16,7 +16,8 @@ module.exports = function(app) {
         var matchName = '';
         var matchPhoto = '';
 
-        // For-each loop to go through the data in friends.js to find a match
+        // For-each loop that processes each "friend" in the friends data structure.
+        // The friend's answers to each question are compared, one at a time, to the user's answers.
         friends.forEach(function(friend) {
         		// Variables for comparing matches
             var matchedScoresArray = [];
@@ -28,8 +29,8 @@ module.exports = function(app) {
             }
 
             // This loops through each item of the scores arrays
-            // from both the stored data and the new user, 
-            // and then substracts, sets to absolute value, and pushes the 
+            // of the "friend" and the user.
+            // It subtracts the friend's score from that of the user, sets it to its absolute value, and pushes the 
             // new value to the matchedScoresArray
             for (var i = 0; i < friend.scores.length; i++) {
                 matchedScoresArray.push(Math.abs(parseInt(req.body.scores[i]) - parseInt(friend.scores[i])));
