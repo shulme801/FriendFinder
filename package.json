@@ -1,7 +1,7 @@
 {
-  "name": "friend-finder",
+  "name": "ff-shulme801",
   "version": "1.0.0",
-  "description": "Homework 11",
+  "description": "Express Project for UNC Bootcamp Sept 2017 Cohort",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,16 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a-ashbeck/FriendFinder.git"
+    "url": "git+https://github.com/shulme801/FriendFinder.git"
   },
-  "author": "Alan W. Ashbeck",
+  "author": "Stephen H. Hulme",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/a-ashbeck/FriendFinder/issues"
-  },
-  "homepage": "https://github.com/a-ashbeck/FriendFinder#readme",
+  "homepage": "https://github.com//FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/shulme801/FriendFinder/issues"
+  },
+  "devDependencies": {}
 }
