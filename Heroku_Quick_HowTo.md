@@ -9,12 +9,12 @@
 * The “heroku create” command will also generate a random name by which your app will be known. I find it’s better to pass to heroku my own preferred name.  The name can only contain lower case letters, numbers, and the dash. In this example, I’ve used the name “ff-shulme801”. 
 
 ### Commands
-$  heroku login
+* $  heroku login
      — username and password prompts
-$ heroku create ff-shulme801
-$ git push heroku master
-$ heroku ps:scale web=1
-$ heroku open
+* $ heroku create ff-shulme801
+* $ git push heroku master
+* $ heroku ps:scale web=1
+* $ heroku open
 
 ### Results
 * Code repo is deployed onto heroku.
