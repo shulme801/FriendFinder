@@ -18,7 +18,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // Starts the server to begin listening
 app.listen(PORT, function() {
-  console.log("Friend Finder App listening on PORT " + PORT);
+  console.log("Friend Personality App listening on PORT " + PORT);
 });
 
 // Requires and sets the HTML routes in this file
